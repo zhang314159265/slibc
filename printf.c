@@ -1,6 +1,3 @@
-/*
- * Copied from sos.
- */
 #include "stdarg.h"
 #include "stdint.h"
 

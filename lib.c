@@ -50,7 +50,7 @@ int strlen(const char* fmt) {
   return len;
 }
 
-char printf_buf[256]; // TODO: hopefully this is enough
+char printf_buf[1024]; // TODO: hopefully this is enough
 int printf_buflen = 0;
 
 void myexit(int code) {
